@@ -16,6 +16,8 @@
 		9B10A58323D7959100705265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B10A58123D7959100705265 /* LaunchScreen.storyboard */; };
 		9B10A58E23D7959100705265 /* LabAssignment2_C0772733Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10A58D23D7959100705265 /* LabAssignment2_C0772733Tests.swift */; };
 		9B10A59923D7959100705265 /* LabAssignment2_C0772733UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10A59823D7959100705265 /* LabAssignment2_C0772733UITests.swift */; };
+		9B10A5A723D7960600705265 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10A5A623D7960600705265 /* NotesTableViewController.swift */; };
+		9B10A5A923D7987E00705265 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10A5A823D7987E00705265 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9B10A59423D7959100705265 /* LabAssignment2_C0772733UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabAssignment2_C0772733UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B10A59823D7959100705265 /* LabAssignment2_C0772733UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabAssignment2_C0772733UITests.swift; sourceTree = "<group>"; };
 		9B10A59A23D7959100705265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B10A5A623D7960600705265 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		9B10A5A823D7987E00705265 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				9B10A57323D7959000705265 /* AppDelegate.swift */,
 				9B10A57523D7959000705265 /* SceneDelegate.swift */,
 				9B10A57723D7959000705265 /* ViewController.swift */,
+				9B10A5A623D7960600705265 /* NotesTableViewController.swift */,
 				9B10A57923D7959000705265 /* Main.storyboard */,
 				9B10A57F23D7959100705265 /* Assets.xcassets */,
 				9B10A58123D7959100705265 /* LaunchScreen.storyboard */,
 				9B10A58423D7959100705265 /* Info.plist */,
 				9B10A57C23D7959000705265 /* LabAssignment2_C0772733.xcdatamodeld */,
+				9B10A5A823D7987E00705265 /* Task.swift */,
 			);
 			path = LabAssignment2_C0772733;
 			sourceTree = "<group>";
@@ -266,6 +272,8 @@
 				9B10A57E23D7959000705265 /* LabAssignment2_C0772733.xcdatamodeld in Sources */,
 				9B10A57423D7959000705265 /* AppDelegate.swift in Sources */,
 				9B10A57623D7959000705265 /* SceneDelegate.swift in Sources */,
+				9B10A5A923D7987E00705265 /* Task.swift in Sources */,
+				9B10A5A723D7960600705265 /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
